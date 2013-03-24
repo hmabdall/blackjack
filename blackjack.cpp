@@ -445,16 +445,13 @@ void exit_screen(int times_played)
      fill_screen(100,10);
      
      // print some strings as messages
-     string s1 = "Thank you for playing MetaQuant BlackJack!";
-     string s2 = "(COPYLEFT 2178 MetaQuant Software,Inc.)";
+     string s1 = "Thank you for playing Hussein's BlackJack!";
      string s3 = "Number of times played: ";
      string s4 = "If you have any comments or suggestions,";
      string s5 = "please direct them to hussein.m.abdallah@gmail.com";
      
      gotoxy((80-s1.length())/2,2);
      cout << s1;
-     gotoxy((80-s2.length())/2,3);
-     cout << s2;
      gotoxy((80-s3.length())/2,5);
      cout << s3 << times_played;
      gotoxy((80-s4.length())/2,7);
@@ -468,8 +465,8 @@ in the welcome screen*/
 void print_setup_screen_menu()
 {
      // declare, print some strings
-    string line1 = "WELCOME TO MetaQuant BLACKJACK SETUP";
-    string line2 = "To input player names, enter 0";
+    string line1 = "WELCOME TO HUSSEIN'S BLACKJACK SETUP";
+    string line2 = "To enter your own player names, enter 0";
     string line3 = "To auto-assign the player names, enter 1";
     //string line2 = "In the fields below, please enter the";
     string line4 = "(note: entries will be parsed to 7 characters)";
@@ -682,7 +679,7 @@ void graphical_arrangement()
     
     // print the welcome string
     gotoxy(27,1);
-    cout << "Welcome to MetaQuant BlackJack!" << endl;
+    cout << "You are playing Hussein's BlackJack!" << endl;
 
     gotoxy(1,2);
     for (int i = 0; i <78; i++)
