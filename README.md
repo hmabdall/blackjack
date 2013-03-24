@@ -1,4 +1,4 @@
-blackjack
+Hussein's Blackjack
 =========
 
 This is a blackjack emulator in Windows DOS application. I wrote for a final project in a computer science class while in high school.
