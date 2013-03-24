@@ -1,7 +1,7 @@
 Hussein's Blackjack
 =========
 
-This is a blackjack emulator in Windows DOS application. I wrote for a final project in a computer science class while in high school.
+This is a blackjack emulator in Windows DOS application. I built it for a final project in a computer science class while in high school.
 
 RULES FOR BLACKJACK (21)
 
